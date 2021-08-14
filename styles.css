@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 98vh;
+    background-color: #34D399;
+    border: 5px solid #065F46;
+  
+  }
+  label {
+    display: block;
+    padding-bottom: 0.5rem;
+  }
+  input {
+    margin-inline-start: 0.5rem;
+    padding: 0.25rem;
+  }
+  button {
+    margin-bottom: 0.5rem;
+  }
+  div {
+    background-color: rgba(255,255,255,0.5);
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+  .sad {
+    background-image: url("https://www.animatedimages.org/data/media/1498/animated-sad-image-0029.gif");
+    background-size: cover;
+    background-position: center center;
+    font-weight: bold;
+  }
+  
+  .happy {
+    background-image: url("https://i.pinimg.com/originals/c0/a4/ce/c0a4ce21e959bba78e7cc0d3ed02f781.gif");
+    background-size: cover;
+    background-position: center center;
+    font-weight: bold;
+  }
+  
+  .noPainNoGain {
+    background-image: url("https://i.pinimg.com/originals/6a/3d/6a/6a3d6a1246580f24a819c40ecac9b26e.gif");
+    background-size: contain;
+    background-position: center center;
+    font-weight: bold;
+  }

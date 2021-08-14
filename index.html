@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body">
+	<div>
+		<h1>Check Profit/Loss on your Stock</h1>
+		<form name="form" action="/">
+			<label for="purchasePrice">Purchase Price
+   <input id="purchasePrice" type="number" required />
+  </label>
+ <label for="quantityOfStocks">Stock Quantity
+   <input id="quantityOfStocks" type="number" required />
+  </label>
+ <label for="currentPrice">Current price
+   <input id="currentPrice" type="number" required />
+  </label>
+ <button type="submit" id="submitButton">Check</button>
+  </form>
+ <div id="result"></div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
