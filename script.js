@@ -8,7 +8,7 @@ const body = document.querySelector('.body');
 function checkProfitOrLoss(initialPrice, quantity, currentPrice) {
   if (initialPrice - currentPrice < 0) {
     let profit = (currentPrice - initialPrice) * quantity;
-    let profitPercentage = (profit / initialPrice) * 100;
+    let profitPercentage = ((currentPrice - initialPrice) / initialPrice) * 100;
     showOutput(`Your total profit is ₹${profit}. Your profit percentage is ${profitPercentage}%`);
     body.classList.add('happy')
     body.classList.remove('sad')
@@ -16,7 +16,7 @@ function checkProfitOrLoss(initialPrice, quantity, currentPrice) {
     
   } else if (initialPrice - currentPrice > 0) {
     let loss = (initialPrice - currentPrice) * quantity;
-    let lossPercentage = (loss / initialPrice) * 100;
+    let lossPercentage = ((initialPrice - currentPrice) / initialPrice) * 100;
     showOutput(`Your total loss is ₹${loss}. Your loss percentage is ${lossPercentage}%`)
     body.classList.remove('happy')
     body.classList.add('sad')
